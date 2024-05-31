@@ -13,7 +13,7 @@ class App extends Component{
       console.log("inside render");
       return(
         <div>
-            <p>Button clicked {this.state.count} times</p>
+            <p>Button clicked {this.state.count} times</p>git 
             <button onClick={this.increment}> Click me</button>
         </div>
       )
